@@ -7,3 +7,14 @@
     justify-content: center;
     grid-template-columns: 8% 8% 8%;
 }
+.reset{
+    outline: none;
+    color: #eee;
+    margin: 15px 0;
+    font-size: 21px;
+    padding: 2px 65px; 
+    border-radius: 15px;
+    background: transparent; 
+    font-family: Kaushan Script;
+    border: 2px solid darkred;
+}
