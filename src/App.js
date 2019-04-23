@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="backgroundBlur"></div>
-      <img src={Background} />
+      <img src={Background} alt="background" />
       <h1>Tic Tac Toe Game</h1>
       <Board />
     </div>

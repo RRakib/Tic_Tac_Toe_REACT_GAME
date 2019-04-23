@@ -4,11 +4,13 @@ import React , {Component} from "react";
 
 // Stateful Component
 class Block extends Component{
+
     render(){
+        console.log(this.props)
         return(
             <div>
-                <button  className="Block">
-
+                <button className="Block" onClick={this.props.onClick()}>
+                    {this.props.value}
                 </button>
             </div>
         )
