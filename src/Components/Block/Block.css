@@ -1,0 +1,8 @@
+.Block{
+    width: 100%;
+    height: 95px;
+    outline: none;
+    padding: 10px 0;
+    background: transparent;
+    border: 1.5px solid #eee;
+}

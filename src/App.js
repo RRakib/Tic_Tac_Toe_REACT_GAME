@@ -1,26 +1,19 @@
+// Imports
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Background from "./Gif/giphy.gif"
+import Board from "./Components/Board/Board";
 
+// Stateless Component
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="backgroundBlur"></div>
+      <img src={Background} />
+      <h1>Tic Tac Toe Game</h1>
+      <Board />
     </div>
   );
 }
 
+// Exports
 export default App;
